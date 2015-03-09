@@ -21,3 +21,5 @@ for (var i = 1; i <= 100; i++) {
     console.log('Buzz');
   else(console.log(i));
 }
+123
+123456
