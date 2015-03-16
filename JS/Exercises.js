@@ -58,3 +58,18 @@ function countChar(phrase, char) { //считает те, что вввел(char
   }
   return number;
 }
+
+//4.1 The sum of a range
+function range(start, end) {
+  var array = [];
+  for (var i=start; i<=end; i++)
+    array.push(i);
+  return array;
+}
+
+function sum(array) {
+    var newsum = 0;
+    for (var i = 0; i < array.length; i++)
+        newsum += array[i];
+    return newsum;
+}
